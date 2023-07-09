@@ -2,7 +2,10 @@ module github.com/Wixi105/pixl-golang
 
 go 1.20
 
-require fyne.io/fyne/v2 v2.3.5
+require (
+	fyne.io/fyne/v2 v2.3.5
+	github.com/lusingander/colorpicker v0.7.1
+)
 
 require (
 	fyne.io/systray v1.10.1-0.20230602210930-b6a2d6ca2a7b // indirect
